@@ -3,21 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
+    android:label="PARINYA"
     app:startDestination="@id/titleFragment2">
     <fragment
         android:id="@+id/titleFragment2"
         android:name="com.example.android.navigation.TitleFragment"
-        android:label="fragment_title"
-        tools:layout="@layout/fragment_title" >
-        <action
-            android:id="@+id/action_titleFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
-    </fragment>
+        android:label="PARINYA"
+        tools:layout="@layout/fragment_title" />
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.example.android.navigation.GameFragment"
         android:label="GameFragment"
-        tools:layout="@layout/fragment_game" >
+        tools:layout="@layout/fragment_game">
         <action
             android:id="@+id/action_gameFragment_to_gameOverFragment"
             app:destination="@id/gameOverFragment"
@@ -33,7 +30,7 @@
         android:id="@+id/gameOverFragment"
         android:name="com.example.android.navigation.GameOverFragment"
         android:label="fragment_game_over"
-        tools:layout="@layout/fragment_game_over" >
+        tools:layout="@layout/fragment_game_over">
         <action
             android:id="@+id/action_gameOverFragment_to_gameFragment"
             app:destination="@id/gameFragment"
@@ -44,7 +41,7 @@
         android:id="@+id/gameWonFragment"
         android:name="com.example.android.navigation.GameWonFragment"
         android:label="fragment_game_won"
-        tools:layout="@layout/fragment_game_won" >
+        tools:layout="@layout/fragment_game_won">
         <action
             android:id="@+id/action_gameWonFragment_to_gameFragment"
             app:destination="@id/gameFragment"

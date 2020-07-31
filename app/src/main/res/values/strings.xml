@@ -15,14 +15,20 @@
   -->
 
 <resources>
-    <string name="app_name">Android Trivia</string>
+    <string name="app_name">PARINYA</string>
     <string name="game_over">Game Over</string>
     <string name="try_again">Try Again?</string>
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
     <string name="android_trivia">Android Trivia</string>
-    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
-    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="about_text">ชื่อ นายปริญญา  การะพันธ์นิด\n\n
+                            ชื่อเล่น หนัน\n\n
+                            อายุ 21\n\n
+                            เกิดวันที่ 25 กุมภาพันธ์ 2542\n\n
+                            กำลังศึกษาชั้นปีที่4 มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน\n\n
+                            สาขา วิทยาการคอมพิวเตอร์\n\n
+                            งานอดิเรก เล่นเกม ทำช่องYoutube</string>
+    <string name="rules_text">...</string>
     <string name="rules">Rules</string>
     <string name="about">About</string>
     <string name="trivia_hint">Trivia Hint</string>
