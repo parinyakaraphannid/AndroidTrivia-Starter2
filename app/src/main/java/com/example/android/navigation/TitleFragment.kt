@@ -41,7 +41,7 @@ class TitleFragment : Fragment() {
         }*/
 
 
-        setHasOptionsMenu(true)
+        
         return binding.root
     }
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
