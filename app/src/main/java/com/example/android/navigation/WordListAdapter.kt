@@ -7,8 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class WordListAdapter {
-    class WordListAdapter internal constructor(
+class WordListAdapter internal constructor(
             context: Context
     ) : RecyclerView.Adapter<WordListAdapter.WordViewHolder>() {
 
@@ -36,4 +35,3 @@ class WordListAdapter {
 
         override fun getItemCount() = words.size
     }
-}

@@ -5,9 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-
-class WordDao {
-    @Dao
+@Dao
     interface WordDao {
 
         @Query("SELECT * from word_table ORDER BY word ASC")
@@ -19,4 +17,3 @@ class WordDao {
         @Query("DELETE FROM word_table")
         suspend fun deleteAll()
     }
-}

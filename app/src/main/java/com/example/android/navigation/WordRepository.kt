@@ -2,8 +2,7 @@ package com.example.android.navigation
 
 import androidx.lifecycle.LiveData
 
-class WordRepository(wordsDao: Any) {
-    class WordRepository(private val wordDao: WordDao) {
+class WordRepository(private val wordDao: WordDao) {
 
         // Room executes all queries on a separate thread.
         // Observed LiveData will notify the observer when the data has changed.
@@ -13,4 +12,3 @@ class WordRepository(wordsDao: Any) {
             wordDao.insert(word)
         }
     }
-}

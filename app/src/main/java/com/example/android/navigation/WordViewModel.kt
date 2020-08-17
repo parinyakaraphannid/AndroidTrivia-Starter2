@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.example.android.navigation.WordRoomDatabase.WordRoomDatabase.Companion.getDatabase
+import com.example.android.navigation.WordRoomDatabase.Companion.getDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
