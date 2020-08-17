@@ -8,11 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 
 class RoomFragment : Fragment() {
-
-    companion object {
-        fun newInstance() = RoomFragment()
-    }
-
     private lateinit var viewModel: RoomViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
