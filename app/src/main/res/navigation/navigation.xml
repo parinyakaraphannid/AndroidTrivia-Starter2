@@ -64,4 +64,9 @@
         android:name="com.example.android.navigation.RulesFragment"
         android:label="fragment_rules"
         tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="com.example.android.navigation.RoomFragment"
+        android:label="room_fragment"
+        tools:layout="@layout/room_fragment" />
 </navigation>

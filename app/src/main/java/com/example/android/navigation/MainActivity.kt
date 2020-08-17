@@ -22,6 +22,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.android.navigation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -35,6 +37,10 @@ class MainActivity : AppCompatActivity() {
         NavigationUI.setupActionBarWithNavController(this, navController)
         NavigationUI.setupWithNavController(binding.navView, navController)
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)
+        val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
+        val adapter = WordListAdapter(this)
+        recyclerView.adapter = adapter
+        recyclerView.layoutManager = LinearLayoutManager(this)
 
     }
 
